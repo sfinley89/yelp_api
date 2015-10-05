@@ -1,1 +1,7 @@
-index
+<h1>Yelp Restraunts</h1>
+<ul>
+  <% @events["new"].each do |event| %>
+    <li><%= event['title'] %></li>
+    <li><%= event['author'] %></li>
+  <% end %>
+</ul>
