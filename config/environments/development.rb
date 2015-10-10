@@ -1,6 +1,13 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+#http://stackoverflow.com/questions/24656613/get-current-position-via-geocoder-rails
+class ActionDispatch::Request
+    def ip
+      "216.52.207.74"
+    end
+end
+
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.

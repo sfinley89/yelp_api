@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# geocoder https://github.com/alexreisner/geocoder
+gem 'geocoder'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
